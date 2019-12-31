@@ -1,7 +1,7 @@
 {
-  "name": "1e-ux-assessment",
+  "name": "fourier-transform",
   "version": "1.0.0",
-  "description": "1E UI/UX Developer Assessment Boilerplate",
+  "description": "Playground for the Fourier Transform.",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alejandroicod/1e-assessment.git"
+    "url": "git+https://github.com/alejandroicod/fourier-transform.git"
   },
   "keywords": [
     "1E",
@@ -23,9 +23,9 @@
   "author": "Alejandro Henriquez Luis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alejandroicod/1e-assessment/issues"
+    "url": "https://github.com/alejandroicod/fourier-transform/issues"
   },
-  "homepage": "https://github.com/alejandroicod/1e-assessment#readme",
+  "homepage": "https://github.com/alejandroicod/fourier-transform#readme",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^16.8.4",

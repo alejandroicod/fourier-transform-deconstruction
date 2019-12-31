@@ -11,7 +11,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '1e.bundle.js'
+    filename: '1e.bundle.js',
+    publicPath: "/"
   },
   module: {
     rules: [
@@ -64,6 +65,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 8080
+    port: 8080,
+    historyApiFallback: true
   }
 };

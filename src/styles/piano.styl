@@ -1,0 +1,56 @@
+#main
+  width 100%
+
+div {
+  margin-bottom: 8px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 8px;
+  color white
+}
+
+select {
+  font-size: 18px;
+  width: 120px;
+}
+
+input {
+  font-size: 18px;
+  width: 85px;
+}
+
+#piano {
+  border: 1px solid #333333;
+  display: flex;
+  padding: 4px;
+  background: brown;
+}
+
+#piano .key {
+  flex: 4;
+  height: 120px;
+  border: 1px solid #666666;
+  margin: 0;
+  background: white;
+}
+
+#piano .key.black {
+  background: #333333;
+  height: 65px;
+  margin: 0 -0.7%;
+  position: relative;
+  flex: 2;
+}
+
+#piano .key:hover {
+  background: #CCCCEE;
+  cursor: pointer;
+}
+
+#piano .key.active {
+  background: #cccccc;
+}
