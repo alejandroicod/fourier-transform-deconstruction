@@ -11,7 +11,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '1e.bundle.js',
+    filename: 'fft.bundle.js',
     publicPath: "/"
   },
   module: {
